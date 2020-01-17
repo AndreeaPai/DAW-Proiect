@@ -1,0 +1,20 @@
+﻿{
+  "Colors": {
+    "Favorite": "blue"
+  },
+  "ConnectionStrings": {
+    "ArtShopConnectionString": "server=(localdb)\\ProjectsV13;Database =ArtShopDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Tokens":{
+    "Key": "trt rt ret reret rgfdgdfgdfg",
+    "Issuer": "localhost",
+    "Audience" : 
+
+  }
+}
