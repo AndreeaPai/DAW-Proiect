@@ -8,3 +8,6 @@ Alte solutii pe care le-am incercat si n-au reusit :
 
 In Angular 
 - am implementat un Cart pentru cumparaturile clientilor
+
+Functionalitate:
+- cand apasam pe butoanele buy de pe produse in shopping cart alaturat se putea observa ca se intoduceau in el.
