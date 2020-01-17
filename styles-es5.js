@@ -1,48 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"], {
   /***/
-  "./ClientApp/styles.css":
-  /*!******************************!*\
-    !*** ./ClientApp/styles.css ***!
-    \******************************/
+  "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
+  /*!*****************************************************************************************************************************************************************!*\
+    !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
+    \*****************************************************************************************************************************************************************/
 
   /*! no static exports found */
 
   /***/
-  function ClientAppStylesCss(module, exports, __webpack_require__) {
-    var content = __webpack_require__(
-    /*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!./styles.css */
-    "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./ClientApp/styles.css");
-
-    if (typeof content === 'string') {
-      content = [[module.i, content, '']];
-    }
-
-    var options = {};
-    options.insert = "head";
-    options.singleton = false;
-
-    var update = __webpack_require__(
-    /*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
-    "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-    if (content.locals) {
-      module.exports = content.locals;
-    }
-    /***/
-
-  },
-
-  /***/
-  "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./ClientApp/styles.css":
-  /*!***********************************************************************************************************************************************************************!*\
-    !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src??embedded!./ClientApp/styles.css ***!
-    \***********************************************************************************************************************************************************************/
-
-  /*! no static exports found */
-
-  /***/
-  function node_modulesAngularDevkitBuildAngularSrcAngularCliFilesPluginsRawCssLoaderJsNode_modulesPostcssLoaderSrcIndexJsClientAppStylesCss(module, exports) {
-    module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNsaWVudEFwcC9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RSIsImZpbGUiOiJDbGllbnRBcHAvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']];
+  function node_modulesAngularDevkitBuildAngularSrcAngularCliFilesPluginsRawCssLoaderJsNode_modulesPostcssLoaderSrcIndexJsSrcStylesCss(module, exports) {
+    module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']];
     /***/
   },
 
@@ -343,18 +310,51 @@
   },
 
   /***/
+  "./src/styles.css":
+  /*!************************!*\
+    !*** ./src/styles.css ***!
+    \************************/
+
+  /*! no static exports found */
+
+  /***/
+  function srcStylesCss(module, exports, __webpack_require__) {
+    var content = __webpack_require__(
+    /*! !../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../node_modules/postcss-loader/src??embedded!./styles.css */
+    "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+
+    if (typeof content === 'string') {
+      content = [[module.i, content, '']];
+    }
+
+    var options = {};
+    options.insert = "head";
+    options.singleton = false;
+
+    var update = __webpack_require__(
+    /*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+    "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+    if (content.locals) {
+      module.exports = content.locals;
+    }
+    /***/
+
+  },
+
+  /***/
   3:
-  /*!************************************!*\
-    !*** multi ./ClientApp/styles.css ***!
-    \************************************/
+  /*!******************************!*\
+    !*** multi ./src/styles.css ***!
+    \******************************/
 
   /*! no static exports found */
 
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\ClientApp\styles.css */
-    "./ClientApp/styles.css");
+    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\artshop-app\src\styles.css */
+    "./src/styles.css");
     /***/
   }
 }, [[3, "runtime"]]]);

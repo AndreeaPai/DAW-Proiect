@@ -6,104 +6,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills-es5"], {
   /***/
-  "./ClientApp/polyfills.ts":
-  /*!********************************!*\
-    !*** ./ClientApp/polyfills.ts ***!
-    \********************************/
-
-  /*! no exports provided */
-
-  /***/
-  function ClientAppPolyfillsTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! zone.js/dist/zone */
-    "./node_modules/zone.js/dist/zone-evergreen.js");
-    /* harmony import */
-
-
-    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1___default =
-    /*#__PURE__*/
-    __webpack_require__.n(zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1__);
-    /**
-     * This file includes polyfills needed by Angular and is loaded before the app.
-     * You can add your own extra polyfills to this file.
-     *
-     * This file is divided into 2 sections:
-     *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
-     *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
-     *      file.
-     *
-     * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
-     * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),
-     * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.
-     *
-     * Learn more in https://angular.io/guide/browser-support
-     */
-
-    /***************************************************************************************************
-     * BROWSER POLYFILLS
-     */
-
-    /** IE10 and IE11 requires the following for NgClass support on SVG elements */
-    // import 'classlist.js';  // Run `npm install --save classlist.js`.
-
-    /**
-     * Web Animations `@angular/platform-browser/animations`
-     * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
-     * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
-     */
-    // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
-
-    /**
-     * By default, zone.js will patch all possible macroTask and DomEvents
-     * user can disable parts of macroTask/DomEvents patch by setting following flags
-     * because those flags need to be set before `zone.js` being loaded, and webpack
-     * will put import in the top of bundle, so user need to create a separate file
-     * in this directory (for example: zone-flags.ts), and put the following flags
-     * into that file, and then add the following code before importing zone.js.
-     * import './zone-flags.ts';
-     *
-     * The flags allowed in zone-flags.ts are listed here.
-     *
-     * The following flags will work for all browsers.
-     *
-     * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
-     * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
-     * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
-     *
-     *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
-     *  with the following flag, it will bypass `zone.js` patch for IE/Edge
-     *
-     *  (window as any).__Zone_enable_cross_context_check = true;
-     *
-     */
-
-    /***************************************************************************************************
-     * Zone JS is required by default for Angular itself.
-     */
-    // Included with Angular CLI.
-
-    /***************************************************************************************************
-     * APPLICATION IMPORTS
-     */
-
-    /***/
-
-  },
-
-  /***/
   "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js":
   /*!******************************************************************************************************!*\
     !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js ***!
@@ -13613,9 +13515,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       var symbolPrototype = SymbolWrapper.prototype = NativeSymbol.prototype;
       symbolPrototype.constructor = SymbolWrapper;
       var symbolToString = symbolPrototype.toString;
-
-      var _native = String(NativeSymbol('test')) == 'Symbol(test)';
-
+      var native = String(NativeSymbol('test')) == 'Symbol(test)';
       var regexp = /^Symbol\((.*)\)[^)]+$/;
       defineProperty(symbolPrototype, 'description', {
         configurable: true,
@@ -13623,7 +13523,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var symbol = isObject(this) ? this.valueOf() : this;
           var string = symbolToString.call(symbol);
           if (has(EmptyStringDescriptionStore, symbol)) return '';
-          var desc = _native ? string.slice(7, -1) : string.replace(regexp, '$1');
+          var desc = native ? string.slice(7, -1) : string.replace(regexp, '$1');
           return desc === '' ? undefined : desc;
         }
       });
@@ -16282,13 +16182,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       if (mod != null) for (var k in mod) {
         if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
       }
-      result["default"] = mod;
+      result.default = mod;
       return result;
     }
 
     function __importDefault(mod) {
       return mod && mod.__esModule ? mod : {
-        "default": mod
+        default: mod
       };
     }
     /***/
@@ -17522,8 +17422,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               _iteratorError = err;
             } finally {
               try {
-                if (!_iteratorNormalCompletion && _iterator["return"] != null) {
-                  _iterator["return"]();
+                if (!_iteratorNormalCompletion && _iterator.return != null) {
+                  _iterator.return();
                 }
               } finally {
                 if (_didIteratorError) {
@@ -17583,8 +17483,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               _iteratorError2 = err;
             } finally {
               try {
-                if (!_iteratorNormalCompletion2 && _iterator2["return"] != null) {
-                  _iterator2["return"]();
+                if (!_iteratorNormalCompletion2 && _iterator2.return != null) {
+                  _iterator2.return();
                 }
               } finally {
                 if (_didIteratorError2) {
@@ -20307,17 +20207,115 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/polyfills.ts":
+  /*!**************************!*\
+    !*** ./src/polyfills.ts ***!
+    \**************************/
+
+  /*! no exports provided */
+
+  /***/
+  function srcPolyfillsTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! zone.js/dist/zone */
+    "./node_modules/zone.js/dist/zone-evergreen.js");
+    /* harmony import */
+
+
+    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1___default =
+    /*#__PURE__*/
+    __webpack_require__.n(zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1__);
+    /**
+     * This file includes polyfills needed by Angular and is loaded before the app.
+     * You can add your own extra polyfills to this file.
+     *
+     * This file is divided into 2 sections:
+     *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
+     *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
+     *      file.
+     *
+     * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
+     * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),
+     * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.
+     *
+     * Learn more in https://angular.io/guide/browser-support
+     */
+
+    /***************************************************************************************************
+     * BROWSER POLYFILLS
+     */
+
+    /** IE10 and IE11 requires the following for NgClass support on SVG elements */
+    // import 'classlist.js';  // Run `npm install --save classlist.js`.
+
+    /**
+     * Web Animations `@angular/platform-browser/animations`
+     * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
+     * Standard animation support in Angular DOES NOT require any polyfills (as of Angular 6.0).
+     */
+    // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
+
+    /**
+     * By default, zone.js will patch all possible macroTask and DomEvents
+     * user can disable parts of macroTask/DomEvents patch by setting following flags
+     * because those flags need to be set before `zone.js` being loaded, and webpack
+     * will put import in the top of bundle, so user need to create a separate file
+     * in this directory (for example: zone-flags.ts), and put the following flags
+     * into that file, and then add the following code before importing zone.js.
+     * import './zone-flags.ts';
+     *
+     * The flags allowed in zone-flags.ts are listed here.
+     *
+     * The following flags will work for all browsers.
+     *
+     * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
+     * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
+     * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames
+     *
+     *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js
+     *  with the following flag, it will bypass `zone.js` patch for IE/Edge
+     *
+     *  (window as any).__Zone_enable_cross_context_check = true;
+     *
+     */
+
+    /***************************************************************************************************
+     * Zone JS is required by default for Angular itself.
+     */
+    // Included with Angular CLI.
+
+    /***************************************************************************************************
+     * APPLICATION IMPORTS
+     */
+
+    /***/
+
+  },
+
+  /***/
   1:
-  /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-    !*** multi ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js zone.js/dist/zone-legacy ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js ./ClientApp/polyfills.ts ***!
-    \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+  /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+    !*** multi ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js zone.js/dist/zone-legacy ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js ./src/polyfills.ts ***!
+    \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 
   /*! no static exports found */
 
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\artshop-app\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
 
     __webpack_require__(
@@ -20325,16 +20323,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./node_modules/zone.js/dist/zone-legacy.js");
 
     __webpack_require__(
-    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */
+    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\artshop-app\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
     __webpack_require__(
-    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-jit-polyfills.js */
+    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\artshop-app\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-jit-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
 
     module.exports = __webpack_require__(
-    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\ClientApp\polyfills.ts */
-    "./ClientApp/polyfills.ts");
+    /*! F:\New folder (2)\Facultate\AN 5\An 4\Daw\Second copy of Car Service\ArtShop\ArtShop\artshop-app\src\polyfills.ts */
+    "./src/polyfills.ts");
     /***/
   }
 }, [[1, "runtime"]]]);
