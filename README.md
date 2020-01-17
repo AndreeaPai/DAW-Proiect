@@ -10,4 +10,4 @@ In Angular
 - am implementat un Cart pentru cumparaturile clientilor
 
 Functionalitate:
-- cand apasam pe butoanele buy de pe produse in shopping cart alaturat se putea observa ca se intoduceau in el.
+- cand apasam pe butoanele buy de pe produse in shopping cart alaturat se putea observa ca se intoduceau in el. Arata cate produse s-au introdus si arata informatii despre produs.
